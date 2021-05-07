@@ -78,7 +78,7 @@ section.task-list {
         div {
           display: flex;
           align-items: center;
-          gap: 14px;
+          gap: 1rem;
           outline: 0;
 
           p {
@@ -168,6 +168,8 @@ section.task-list {
     padding: 1rem .5rem;
 
     header {
+      justify-content: center;
+
       h2 {
         font-size: 1.7rem;
       }
