@@ -10,6 +10,7 @@ section.task-list {
   header {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     
@@ -157,5 +158,19 @@ section.task-list {
         }
       }
     } 
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  section.task-list {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    padding: 1rem .5rem;
+
+    header {
+      h2 {
+        font-size: 1.7rem;
+      }
+    }
   }
 }
